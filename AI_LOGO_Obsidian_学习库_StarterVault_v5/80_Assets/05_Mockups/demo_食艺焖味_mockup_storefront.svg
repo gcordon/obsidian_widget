@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f6f4ef"/>
+  <rect x="150" y="180" width="900" height="430" rx="35" fill="#ffffff" stroke="#333" stroke-width="8"/>
+  <circle cx="360" cy="395" r="140" fill="#ffc82e" stroke="#111" stroke-width="10"/>
+  <text x="360" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#111">食艺焖味</text>
+  <text x="620" y="350" font-family="Arial, sans-serif" font-size="70" font-weight="700" fill="#111">门店招牌 Demo</text>
+  <text x="620" y="440" font-family="Arial, sans-serif" font-size="38" fill="#555">头像 / 招牌 / 包装贴纸应用示意</text>
+</svg>
