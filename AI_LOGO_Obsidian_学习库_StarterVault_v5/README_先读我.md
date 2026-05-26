@@ -15,16 +15,16 @@ ChatGPT 网页版 / Project → Obsidian → Codex → 周复盘 / 作品集
 1. 解压 zip。
 2. 打开 Obsidian。
 3. 选择 **Open folder as vault**。
-4. 选择这个文件夹：`AI_LOGO_Obsidian_学习库_StarterVault_v4`。
+4. 选择这个文件夹：`AI_LOGO_Obsidian_学习库_StarterVault_v5`。
 
 ## 第二步：先打开这些文件
 
 进入 Obsidian 后，按顺序打开：
 
-1. `00_Index/每天从这里开始.md`
-2. `00_Index/AI Logo 设计 MOC.md`
-3. `00_Index/GPT Project 长期学习教练设置.md`
-4. `00_Index/图片学习工作流：ChatGPT + Obsidian + Codex.md`
+1. [[每天从这里开始]]
+2. [[AI Logo 设计 MOC]]
+3. [[GPT Project 长期学习教练设置]]
+4. [[图片学习工作流：ChatGPT + Obsidian + Codex]]
 
 ## 第三步：开启核心插件
 
@@ -60,12 +60,12 @@ ChatGPT 网页版 / Project → Obsidian → Codex → 周复盘 / 作品集
 AI Logo 设计学习教练
 ```
 
-然后把 `00_Index/GPT Project 长期学习教练设置.md` 里的固定指令复制到 Project instructions。
+然后把 [[GPT Project 长期学习教练设置]] 里的固定指令复制到 Project instructions。
 
 日常练习使用：
 
-- `30_Prompts/每日图片练习启动 Prompt.md`
-- `30_Prompts/练习结束导出 Obsidian Markdown Prompt.md`
+- [[每日图片练习启动 Prompt]]
+- [[练习结束导出 Obsidian Markdown Prompt]]
 
 ## 第六步：用 Codex 打开这个 Vault
 
@@ -83,11 +83,11 @@ codex
 
 日常整理使用：
 
-- `30_Prompts/Codex 每日与每周整理 Prompt.md`
+- [[Codex 每日与每周整理 Prompt]]
 
 ## 每天的学习流程
 
-1. 打开 `00_Index/每天从这里开始.md`。
+1. 打开 [[每天从这里开始]]。
 2. 在 ChatGPT Project 里开始当天练习。
 3. 上传参考图或生成图。
 4. 用 ChatGPT 分析、生成、修改、评分。
@@ -107,17 +107,17 @@ codex
 
 ## v4 新增内容
 
-- `00_Index/每天从这里开始.md`
-- `00_Index/GPT Project 长期学习教练设置.md`
-- `50_Workflows/GPT 到 Obsidian 到 Codex 日常流程.md`
-- `50_Workflows/ZIP 更新与备份规则.md`
-- `30_Prompts/每日图片练习启动 Prompt.md`
-- `30_Prompts/练习结束导出 Obsidian Markdown Prompt.md`
-- `30_Prompts/Codex 每日与每周整理 Prompt.md`
-- `Templates/ChatGPT 每日练习记录模板.md`
-- `Templates/ChatGPT 输出整理模板.md`
+- [[每天从这里开始]]
+- [[GPT Project 长期学习教练设置]]
+- [[GPT 到 Obsidian 到 Codex 日常流程]]
+- [[ZIP 更新与备份规则]]
+- [[每日图片练习启动 Prompt]]
+- [[练习结束导出 Obsidian Markdown Prompt]]
+- [[Codex 每日与每周整理 Prompt]]
+- [[ChatGPT 每日练习记录模板]]
+- [[ChatGPT 输出整理模板]]
 - `00_Inbox/` 和 `01_Daily/` 目录
-- `90_System/ZIP 更新记录.md`
+- [[ZIP 更新记录]]
 
 ## 一句话原则
 
@@ -143,16 +143,9 @@ ChatGPT 负责图片创作和学习指导；Obsidian 负责长期沉淀；Codex 
 
 第一次学习建议顺序：
 
-```text
-README_先读我
-↓
-00_Index/每天从这里开始
-↓
-00_Index/学习路线与 Demo 导航
-↓
-Demo - 一次完整学习流
-↓
-Demo - 食艺焖味餐饮 Logo 复盘
-↓
-开始自己的每日练习
-```
+1. [[README_先读我]]
+2. [[每天从这里开始]]
+3. [[学习路线与 Demo 导航]]
+4. [[Demo - 一次完整学习流]]
+5. [[Demo - 食艺焖味餐饮 Logo 复盘]]
+6. 开始自己的每日练习
