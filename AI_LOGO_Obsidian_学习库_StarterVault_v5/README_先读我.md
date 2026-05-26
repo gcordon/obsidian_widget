@@ -1,151 +1,124 @@
-# 先读我：AI Logo Obsidian 学习库启动说明 v4
+# 先读我：AI 餐饮 Logo 商业学习系统
 
-这个文件夹是一个可以直接用 Obsidian 打开的 AI Logo / 图片设计学习库 starter vault。
+这个文件夹可以直接用 Obsidian 打开。它不是普通资料库，而是一个长期学习和沉淀 AI 餐饮 Logo 商业资产的 vault。
 
-v4 的重点不是只放资料，而是帮你建立：
+核心目标：
 
 ```text
-ChatGPT 网页版 / Project → Obsidian → Codex → 周复盘 / 作品集
+ChatGPT 做图 / 改图
+→ Obsidian 记录和复盘
+→ Codex 整理案例、Prompt、资产候选
+→ 长期形成餐饮 Logo 模板包、Prompt 包、风格包和素材包
 ```
 
-的日常学习流程。
+## 第一步：打开 Vault
 
-## 第一步：打开这个 Vault
+1. 打开 Obsidian。
+2. 选择 **Open folder as vault**。
+3. 选择这个文件夹：`AI_LOGO_Obsidian_学习库_StarterVault_v5`。
 
-1. 解压 zip。
-2. 打开 Obsidian。
-3. 选择 **Open folder as vault**。
-4. 选择这个文件夹：`AI_LOGO_Obsidian_学习库_StarterVault_v5`。
+## 第二步：只打开一个日常入口
 
-## 第二步：先打开这些文件
+每天从这里开始：
 
-进入 Obsidian 后，按顺序打开：
+- [[每天从这里开始]]
 
-1. [[每天从这里开始]]
-2. [[AI Logo 设计 MOC]]
-3. [[GPT Project 长期学习教练设置]]
-4. [[图片学习工作流：ChatGPT + Obsidian + Codex]]
+第一次使用再看：
 
-## 第三步：开启核心插件
+- [[学习路线与 Demo 导航]]
+- [[Demo - 一次完整学习流]]
+- [[Demo - 食艺焖味餐饮 Logo 复盘]]
 
-建议开启：
+全局地图：
+
+- [[AI Logo 设计 MOC]]
+
+## 第三步：设置 Obsidian 模板
+
+建议开启核心插件：
 
 - Daily notes
 - Templates
 - Backlinks
 - Outgoing links
-- Graph view
-- Canvas
 - Search
 - File recovery
 
-## 第四步：设置模板文件夹
-
-在 Obsidian 中设置：
-
-- Settings → Core plugins → Templates → Template folder location
-- 填写：`Templates`
-
-如果你使用 Daily notes：
-
-- Settings → Daily notes
-- New file location：`01_Daily`
-- Template file location：`Templates/ChatGPT 每日练习记录模板`
-
-## 第五步：建立 ChatGPT Project
-
-建议建立一个 Project：
+模板目录：
 
 ```text
-AI Logo 设计学习教练
+Templates
 ```
 
-然后把 [[GPT Project 长期学习教练设置]] 里的固定指令复制到 Project instructions。
-
-日常练习使用：
-
-- [[每日图片练习启动 Prompt]]
-- [[练习结束导出 Obsidian Markdown Prompt]]
-
-## 第六步：用 Codex 打开这个 Vault
-
-在终端进入这个文件夹，然后运行：
-
-```bash
-codex
-```
-
-第一次建议给 Codex：
+Daily notes 建议：
 
 ```text
-请阅读 AGENTS.md 和当前 Obsidian vault。不要修改文件。先告诉我这个 AI Logo 学习库的结构、核心入口，以及我今天应该从哪 3 篇笔记开始。
+New file location: 01_Daily
+Template file location: Templates/ChatGPT 每日练习记录模板
+Date format: YYYY-MM-DD
 ```
 
-日常整理使用：
+## 每天怎么学
 
-- [[Codex 每日与每周整理 Prompt]]
+每天只做一个小闭环：
 
-## 每天的学习流程
+```text
+打开 [[每天从这里开始]]
+→ 选一个餐饮细分和 Logo 类型
+→ 复制 Prompt 到 ChatGPT
+→ 保存图片到 80_Assets/
+→ 写 Daily
+→ 判断是否进入案例库、Prompt 包或待售资产库
+```
 
-1. 打开 [[每天从这里开始]]。
-2. 在 ChatGPT Project 里开始当天练习。
-3. 上传参考图或生成图。
-4. 用 ChatGPT 分析、生成、修改、评分。
-5. 让 ChatGPT 输出 Obsidian Markdown。
-6. 图片放到 `80_Assets/`。
-7. Markdown 放到 `00_Inbox/` 或 `01_Daily/`。
-8. 每 2-3 天用 Codex 整理一次。
-9. 每周用 Codex 生成复盘和作品集草稿。
+## 每周怎么总结
 
-## 不要一开始做的事
+每周至少整理：
 
-- 不要马上装很多社区插件。
-- 不要每天上传整个 zip 给 ChatGPT。
-- 不要每天下载新 zip 覆盖本地 vault。
-- 不要让 Codex 一次性重构全部文件。
-- 不要只保存图片，不记录 Prompt 和复盘。
+- 1 篇完整案例复盘：[[案例复盘库]]
+- 1 个稳定 Prompt：[[Prompt 模板库]]
+- 1 个资产候选：[[我的作品集]]
+- 1 篇商业复盘：[[每周复盘模板]]
 
-## v4 新增内容
+## 第一条商业主线
+
+优先做餐饮 Logo 模板包，不要一开始做太散。
+
+第一批方向：
+
+1. 外卖头像 Logo
+2. 餐饮吉祥物 Logo
+3. 圆形徽章 Logo
+4. 咖啡 / 奶茶 Logo
+5. 门店招牌 Logo
+
+## 三个工具的分工
+
+| 工具 | 负责什么 |
+|---|---|
+| ChatGPT 网页版 / Project | 看图、生成图、改图、评分、输出 Markdown |
+| Obsidian | 保存 Daily、案例、Prompt、复盘、资产候选 |
+| Codex | 整理本地 Markdown、链接、Prompt、案例、周复盘 |
+
+## 不要每天做的事
+
+- 不要每天重新整理整个 vault。
+- 不要只保存图片，不写 Prompt 和复盘。
+- 不要每天换完全不同的方向。
+- 不要把系统说明当成学习主线。
+- 不要一开始追求完整销售页，先积累可售卖资产。
+
+## 关键入口
 
 - [[每天从这里开始]]
-- [[GPT Project 长期学习教练设置]]
-- [[GPT 到 Obsidian 到 Codex 日常流程]]
-- [[ZIP 更新与备份规则]]
-- [[每日图片练习启动 Prompt]]
-- [[练习结束导出 Obsidian Markdown Prompt]]
-- [[Codex 每日与每周整理 Prompt]]
-- [[ChatGPT 每日练习记录模板]]
-- [[ChatGPT 输出整理模板]]
-- `00_Inbox/` 和 `01_Daily/` 目录
-- [[ZIP 更新记录]]
+- [[AI Logo 设计 MOC]]
+- [[30 天练习计划]]
+- [[Prompt 模板库]]
+- [[案例复盘库]]
+- [[我的作品集]]
+- [[每周复盘模板]]
+- [[2026-05-26 项目目标与改造共识]]
 
 ## 一句话原则
 
-ChatGPT 负责图片创作和学习指导；Obsidian 负责长期沉淀；Codex 负责本地整理；zip 只做阶段性备份和大版本更新。
-
-
----
-
-## v5 新增：更适合“打开就能学”的 Demo
-
-本版新增了新手阅读路线和完整 Demo：
-
-- [[学习路线与 Demo 导航]]
-- [[Demo - 一次完整学习流]]
-- [[Demo - 2026-05-25 AI Logo 练习]]
-- [[Demo - 食艺焖味餐饮 Logo 复盘]]
-- [[Demo - FOREST COFFEE 徽章 Logo 复盘]]
-- [[Demo - 餐饮吉祥物 Logo Prompt 迭代]]
-- [[Demo - AI Logo 作品集页面]]
-- [[Demo - 第一周复盘]]
-
-也新增了示例图片素材，放在 `80_Assets/` 下。示例图片只是为了演示 Obsidian 图片嵌入、案例复盘和作品集结构，不代表最终商业设计稿。
-
-第一次学习建议顺序：
-
-1. [[README_先读我]]
-2. [[每天从这里开始]]
-3. [[学习路线与 Demo 导航]]
-4. [[Demo - 一次完整学习流]]
-5. [[Demo - 食艺焖味餐饮 Logo 复盘]]
-6. 开始自己的每日练习
+每天练一个餐饮 Logo 小方向，每周沉淀一个可复用 Prompt 或资产候选，长期把练习记录变成可以卖的餐饮 Logo 模板包。
