@@ -1,6 +1,6 @@
 # obsidian_widget
 
-Obsidian vault for building an AI restaurant logo learning and sellable-asset system.
+Obsidian vault for building an AI restaurant logo learning, review, and service-practice system.
 
 Main vault:
 
@@ -20,6 +20,6 @@ AI 餐饮 Logo 学习
 → Daily 练习
 → 案例复盘
 → Prompt 沉淀
-→ 待售资产候选
-→ 餐饮 Logo 模板包 / Prompt 包 / 风格包 / 素材包
+→ 个人作品精选
+→ 给别人做 Logo 的能力
 ```

@@ -8,7 +8,7 @@
 ChatGPT 网页版 / Project
   ↓ 看图、生成图、改图、评分、输出 Markdown
 Obsidian
-  ↓ 保存图片、Prompt、Daily Note、案例复盘
+  ↓ 保存图片、Prompt、Daily Note、案例复盘、需求记录
 Codex
   ↓ 每 2-3 天整理本地 Markdown、补链接、生成周复盘
 Obsidian
@@ -74,6 +74,8 @@ ChatGPT 负责：
 01_Daily/YYYY-MM-DD AI Logo 练习.md
 ```
 
+如果是别人给你的真实 Logo 需求，先用 [[Logo 需求记录模板]] 记录清楚，再决定是否进入练习、案例或作品精选。
+
 ### 4. 用 Codex 本地整理
 
 进入本地 vault：
@@ -92,6 +94,7 @@ codex
 - 整理 `00_Inbox`；
 - 生成 `70_Reviews/本周复盘.md`；
 - 提取新增 Prompt 到 `30_Prompts`；
+- 整理真实需求记录和对应案例；
 - 检查图片断链；
 - 更新 `60_Portfolio`。
 

@@ -10,7 +10,7 @@ prompt_type:
 restaurant_type:
 logo_type:
 stability:
-asset_status: practice
+learning_status: practice
 ---
 
 # Prompt - {{title}}
@@ -49,8 +49,8 @@ asset_status: practice
 - 常见问题：
 - 最适合场景：
 
-## 商业化备注
+## 方法备注
 
-- 是否适合进入 Prompt 包：
-- 是否适合做成模板包说明：
+- 是否适合进入 Prompt 方法库：
+- 适合哪类真实 Logo 需求：
 - 还需要哪些案例验证：
