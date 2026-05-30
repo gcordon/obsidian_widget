@@ -69,13 +69,16 @@ Date format: YYYY-MM-DD
 每天只做一个小闭环：
 
 ```text
-打开 [[每天从这里开始]]
-→ 选一种 AI Logo 生成方法
-→ 复制对应 Prompt 到 ChatGPT
+对 AI 说：开始今天学习
+→ AI 读取学习进度
+→ AI 安排今天练什么
+→ 你复制 AI 给的 Prompt 到 ChatGPT
 → 保存图片到 80_Assets/
-→ 写 Daily
-→ 回到 [[学习进度与任务追踪]] 打勾
+→ 把结果、问题、图片路径或截图告诉 AI
+→ AI 更新 Daily、学习进度、Prompt 或案例
 ```
+
+长期协作规则：[[AI 陪练学习流程]]
 
 如果是别人给你的真实 Logo 需求，先用 [[Logo 需求记录模板]] 记录需求，再开始生成或修改图片。
 
@@ -124,7 +127,7 @@ Date format: YYYY-MM-DD
 |---|---|
 | ChatGPT 网页版 / Project | 看图、生成图、改图、评分、输出 Markdown |
 | Obsidian | 保存 Daily、方法进度、案例、Prompt、复盘 |
-| Codex | 整理本地 Markdown、链接、Prompt、案例、周复盘 |
+| Codex / AI agent | 安排学习任务、整理本地 Markdown、更新进度、Prompt、案例、周复盘 |
 
 ## 不要每天做的事
 
@@ -132,12 +135,14 @@ Date format: YYYY-MM-DD
 - 不要只保存图片，不写 Prompt 和复盘。
 - 不要每天换完全不同的方向。
 - 不要把系统说明当成学习主线。
+- 不要手动维护学习进度；练完把事实告诉 AI，由 AI 更新。
 - 不要一开始追求复杂交付，先积累判断能力和可复用方法。
 
 ## 关键入口
 
 - [[START_HERE_每天从这里开始]]
 - [[每天从这里开始]]
+- [[AI 陪练学习流程]]
 - [[AI Logo 生成方法训练地图]]
 - [[AI Logo 设计 MOC]]
 - [[30 天练习计划]]
