@@ -1,8 +1,0 @@
-# Project-scoped Codex configuration for this Obsidian vault.
-# Codex only loads this after you trust the project.
-
-approval_policy = "on-request"
-sandbox_mode = "workspace-write"
-web_search = "disabled"
-model_reasoning_effort = "high"
-personality = "pragmatic"
