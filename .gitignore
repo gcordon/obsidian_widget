@@ -11,3 +11,13 @@ __pycache__/
 # Obsidian local workspace state
 .obsidian/workspace.json
 .obsidian/workspaces.json
+
+# Local generated artifacts and indexes
+/output/
+/role-map-preview/
+/.codegraph/
+
+# Obsidian community plugins are local by default. Keep the hidden-folder
+# integration portable because this vault relies on it to expose `.agents`.
+/.obsidian/plugins/*
+!/.obsidian/plugins/hidden-folders-access/
