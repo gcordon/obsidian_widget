@@ -1,4 +1,4 @@
 interface:
   display_name: "Recreate Logo"
-  short_description: "依据唯一参考图完成通用 Logo 复刻、校正与基础验收"
-  default_prompt: "使用 $recreate-logo 严格依据唯一参考图复刻 Logo，并在每次生图前先汇总方案、获得明确授权。"
+  short_description: "依据权威资产完成可追溯的 Logo 复刻、二次开发与校正"
+  default_prompt: "使用 $recreate-logo 判定复刻或二次开发模式，严格遵循权威资产，并在每次生图前先汇总方案、获得明确授权。"
