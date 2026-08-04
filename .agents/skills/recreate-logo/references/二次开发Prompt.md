@@ -22,6 +22,13 @@ User-confirmed change specification:
 - Change only: <填写允许改变的内容>
 - Preserve: <填写必须继承的内容、结构、位置、比例和视觉特征>
 
+Locked invariants:
+- Authorized edit regions: <填写允许改变内容在 Image 2 中的对应区域>
+- Treat every pixel outside the authorized edit regions as immutable.
+- Reuse Image 2's canvas and background; do not regenerate them.
+- Fit each replacement inside its corresponding original content region.
+- Unless explicitly authorized, do not change the combined foreground bounding box, layer positions, element geometry, palette, or negative space.
+
 Primary request:
 Edit Image 2 into the stated output asset. Apply only the confirmed changes and preserve every correct property not listed for change.
 
@@ -29,6 +36,7 @@ Constraints:
 - Do not overwrite Image 2.
 - Do not add, remove, redesign, or reinterpret unapproved content.
 - Do not introduce extra text, symbols, effects, colors, or layout changes.
+- Do not rescale, recenter, rearrange, redraw, or regenerate locked content.
 - Render all user-provided content verbatim.
 
 Output:

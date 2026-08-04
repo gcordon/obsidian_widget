@@ -2,6 +2,8 @@
 
 用于按当前任务模式比较权威资产、用户确认目标与当前稿，并生成单轮修正稿。
 
+本 Prompt 只适用于普通视觉差异，不适用于画布、背景、有限调色板、整体前景边界、元素位置、尺寸或间距等精确不变量偏差。命中精确不变量偏差时，返回 Skill 的失败分流，不得填写或使用本 Prompt。
+
 ```text
 Task mode: <recreation or secondary development>
 
