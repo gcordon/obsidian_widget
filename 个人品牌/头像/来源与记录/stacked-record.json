@@ -1,0 +1,25 @@
+{
+  "task": "上方用户手绘图形，下方logo 设计头像",
+  "direct_input": "stacked-reference.png",
+  "source": "用户本轮上传图片",
+  "source_sha256": "9889e13933756563bb3636e4ffd3d401cb913761100e47c1890a3766a09b04d1",
+  "output": "stacked-v1.png",
+  "sha256": "87c345ff0e38f98104a983c2fe8873a9bdd74b535758cf8522c101a11d3e60ee",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "tool": "image_gen.imagegen",
+  "model": "内置GPT Image，具体版本未知",
+  "execution_id": "未知",
+  "returned_file": "exec-fd748c2d-4574-4bce-a5fb-96bfcf77e07b.png",
+  "prompt": "Use case: compositing / logo-brand. Make a finished square avatar with a two-tier vertical composition based on the provided image. TOP: faithfully reproduce the reference's BLACK HAND-DRAWN SYMBOL, a single thin spontaneous line looping through four tall narrow diagonal vertical waves, crossed by a broad flattened horizontal looping curve. Preserve its distinctive specific silhouette, number of loops, stroke crossings, slightly tilted tall peaks, natural hand-drawn irregularity and thin round-ended black strokes; do NOT reinterpret it as a tangled circular scribble. Treat only the black foreground drawing as the reference symbol. Place it centered in the upper portion, spanning about 64% of the square width with its original wide aspect ratio. BOTTOM: centered exact text \"logo 设计\" (lowercase Latin logo, one space, Chinese 设计), one horizontal line, heavy clean black sans-serif, about 48% of canvas width. A deliberate generous gap between symbol and text, with the two together optically centered on the canvas. All artwork comfortably inside the central circular avatar crop. Background must be SOLID OPAQUE warm near-white #F7F6F2 across the entire square, NOT transparent. No background ghost marks or other writing; no added icons, rings, frames, colors, gradients, shadows, textures or mockup. Final result: reference black line symbol ABOVE, logo 设计 BELOW. One square PNG 1024x1024.\n",
+  "postprocessing": "仅字节复制，非像素无损拼接",
+  "review": {
+    "reviewer": "quality_templates",
+    "status": "Pass",
+    "evidence": "图形在上，logo 设计在下；手绘结构保留；普通内切圆目视无截断",
+    "limits": "线条更粗平滑、部分波峰交点弧度变化，右下尾完整呈现；非无损拼接，未实测小尺寸",
+    "user_confirmation": "pending"
+  }
+}

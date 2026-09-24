@@ -14,6 +14,8 @@ __pycache__/
 
 # Local generated artifacts and indexes
 /output/
+.codegraph/
+llm-council/runs/
 
 # Obsidian community plugins are local by default. Keep the hidden-folder
 # integration portable because this vault relies on it to expose `.agents`.

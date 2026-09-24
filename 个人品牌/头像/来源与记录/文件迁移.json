@@ -1,0 +1,14 @@
+{
+  "purpose": "用户自用头像，归档到个人品牌根目录",
+  "date": "2026-09-24",
+  "historical_record": "stacked-record.json",
+  "note": "原生成记录保持不变；其中的历史相对文件名按以下映射定位。迁移未修改图像内容。",
+  "old_directory": "output/imagegen/logo-avatar-20260924/",
+  "new_paths_relative_to_this_file": {
+    "stacked-v1.png": "../logo设计-头像.png",
+    "stacked-reference.png": "stacked-reference.png",
+    "stacked-prompt-v1.txt": "stacked-prompt-v1.txt",
+    "stacked-record.json": "stacked-record.json"
+  },
+  "verification": "成品和参考图 SHA-256 与原生成记录一致"
+}
